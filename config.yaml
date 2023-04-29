@@ -3,7 +3,7 @@ list_file_background_color: white
 list_file_foreground_color: black
 list_words_background_color: white
 list_words_foreground_color: black
-openai_key: 
+openai_key: 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
 panel_background_color: white
 qa_model: OpenAI
 summarizer_model: OpenAI

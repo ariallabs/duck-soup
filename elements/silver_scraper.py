@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-
 class Silver_Scraper:
     def __init__(self, url):
         self.url = url
@@ -23,7 +22,7 @@ class Silver_Scraper:
         The logic is very simple:
         1. get the page
         2. get the chapters
-        3. if the chapter is in the chapters:
+        3. if the chapter is in the found chapters:
             3.1. get the text of the chapter
         4. else:
             4.1. get all the text
@@ -219,3 +218,4 @@ class Silver_Scraper:
         # replace the / with a space
         text = text.replace("/", " ")
         return text, chapters
+            

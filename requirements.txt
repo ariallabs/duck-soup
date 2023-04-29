@@ -1,3 +1,6 @@
+wxpython
+whisper
+openai
 pandas 
 numpy
 networkx
